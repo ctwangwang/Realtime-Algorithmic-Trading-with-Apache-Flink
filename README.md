@@ -39,6 +39,18 @@ This project implements an algorithmic trading system using Apache Flink, Kafka,
    python news-producer.py
    python prices-producer.py
 
+3. Run Flink SQL Client
+   ```bash
+   docker compose run sql-client
+   (copy ddl.sql and run it on terminal to create tables and views)
+
+4. Create Slack channel and app
+   (copy channel ID and token to keys.py)
+
+5. Run signal_handler.py to send trade signal to Slack channel
+   ```bash
+   python signal_handler.py
+   
 ## Features
 
 - Historical news data ingestion

@@ -58,7 +58,6 @@ This project implements an algorithmic trading system using Apache Flink, Kafka,
 - Sentiment analysis on news headlines
 - Integration with Alpaca trading API for order execution
 - Slack notifications for trading signals
-- Time window-based signal filtering to avoid acting on outdated information
 - Backtesting mode for historical data analysis
 
 ## Notes
